@@ -1,0 +1,90 @@
+Column,Column Name,Populated,Length,Type,Description,Sample value
+1,Record Type,x,1,Character,"""Z"" for ZIP level record - ""4"" for ZIP+4 level record",Z
+2,Beginning Effective Date,x,8,Date,CCYYMMDD,20051001
+3,Ending Effective Date,x,8,Date,CCYYMMDD,20101231
+4,Low Address Range,null,10,Character,"(If Record Type = PO Box, Box Range Listed)",
+5,High Address Range,null,10,Character,"(If Record Type = PO Box, Box Range Listed)",
+6,"Odd / Even ""Range"" Indicator",null,1,Character,"Range of addresses odd, even or both",
+7,Street Pre-Directional abbr.,null,2,Character,Primary Address (Line 1),
+8,Street - Name,null,20,Character,Primary Address (Line 1),
+9,Street - Suffix Abbr.,null,4,Character,Primary Address (Line 1),
+10,Street - Post Directional,null,2,Character,Primary Address (Line 1),
+11,Address Secondary Abbr.,null,4,Character,Secondary Address (Line 2) -if Highrise or Firm,
+12,Address Secondary (Low),null,8,Character,Secondary Address (Line 2) -if Highrise or Firm,
+13,Address Secondary (High),null,8,Character,Secondary Address (Line 2) -if Highrise or Firm,
+14,Address Secondary (Odd/Even),null,1,Character,Secondary Address (Line 2) -if Highrise or Firm,
+15,City Name,null,28,Character,,
+16,Zip Code,null,5,Character,,
+17,Plus4,null,4,Character,,
+18,Zip Code Low,x,5,Character,Low range for ZIP code,55101
+19,Zip Extension Low,x,4,Character,Low range for ZIP + 4 code,1231
+20,Zip Code High,x,5,Character,High range for ZIP code,55108
+21,Zip Extension High,x,4,Character,High range for ZIP + 4 code,6523
+22,Composite SER Code,null,5,Character,,
+23,FIPS State Code ,x,2,Character,,27
+24,FIPS State Indicator,x,2,Character,"FIPS state code-""00"" if no state tax rate",27
+25,FIPS County Code,x,3,Character,Present if a county tax is current,053
+26,FIPS Place Code,x,5,Character,"Municipality, township, unincorporated area, etc",58000
+27,FIPS Place Class Code,null,2,Character,,
+28,Longitude Data,null,7,Character,,
+29,Latitude Data,null,7,Character,,
+30,Special Tax District Source 1,x,2,Character,"""ST"" for state Defined",ST
+31,Special Tax District 1,x,5,Character,Special tax code,80001
+32,Type of Taxing Authority 1,x,2,Character,SSUTA type code,63
+33,Special Tax District Source 2,x,2,Character,"""ST"" for state Defined",ST
+34,Special Tax District 2,x,5,Character,Special tax code,80002
+35,Type of Taxing Authority 2,x,2,Character,SSUTA type code,63
+36,Special Tax District Source 3,null,2,Character,,
+37,Special Tax District 3,null,5,Character,,
+38,Type of Taxing Authority 3,null,2,Character,,
+39,Special Tax District Source 4,null,2,Character,,
+40,Special Tax District 4,null,5,Character,,
+41,Type of Taxing Authority 4,null,2,Character,,
+42,Special Tax District Source 5,null,2,Character,,
+43,Special Tax District 5,null,5,Character,,
+44,Type of Taxing Authority 5,null,2,Character,,
+45,Special Tax District Source 6,null,2,Character,,
+46,Special Tax District 6,null,5,Character,,
+47,Type of Taxing Authority 6,null,2,Character,,
+48,Special Tax District Source 7,null,2,Character,,
+49,Special Tax District 7,null,5,Character,,
+50,Type of Taxing Authority 7,null,2,Character,,
+51,Special Tax District Source 8,null,2,Character,,
+52,Special Tax District 8,null,5,Character,,
+53,Type of Taxing Authority 8,null,2,Character,,
+54,Special Tax District Source 9,null,2,Character,,
+55,Special Tax District 9,null,5,Character,,
+56,Type of Taxing Authority 9,null,2,Character,,
+57,Special Tax District Source 10,null,2,Character,,
+58,Special Tax District 10,null,5,Character,,
+59,Type of Taxing Authority 10,null,2,Character,,
+60,Special Tax District Source 11,null,2,Character,,
+61,Special Tax District 11,null,5,Character,,
+62,Type of Taxing Authority 11,null,2,Character,,
+63,Special Tax District Source 12,null,2,Character,,
+64,Special Tax District 12,null,5,Character,,
+65,Type of Taxing Authority 12,null,2,Character,,
+66,Special Tax District Source 13,null,2,Character,,
+67,Special Tax District 13,null,5,Character,,
+68,Type of Taxing Authority 13,null,2,Character,,
+69,Special Tax District Source 14,null,2,Character,,
+70,Special Tax District 14,null,5,Character,,
+71,Type of Taxing Authority 14,null,2,Character,,
+72,Special Tax District Source 15,null,2,Character,,
+73,Special Tax District 15,null,5,Character,,
+74,Type of Taxing Authority 15,null,2,Character,,
+75,Special Tax District Source 16,null,2,Character,,
+76,Special Tax District 16,null,5,Character,,
+77,Type of Taxing Authority 16,null,2,Character,,
+78,Special Tax District Source 17,null,2,Character,,
+79,Special Tax District 17,null,5,Character,,
+80,Type of Taxing Authority 17,null,2,Character,,
+81,Special Tax District Source 18,null,2,Character,,
+82,Special Tax District 18,null,5,Character,,
+83,Type of Taxing Authority 18,null,2,Character,,
+84,Special Tax District Source 19,null,2,Character,,
+85,Special Tax District 19,null,5,Character,,
+86,Type of Taxing Authority 19,null,2,Character,,
+87,Special Tax District Source 20,null,2,Character,,
+88,Special Tax District 20,null,5,Character,,
+89,Type of Taxing Authority 20,null,2,Character,,
